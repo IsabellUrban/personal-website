@@ -1,0 +1,76 @@
+* {
+  /* border: 1px solid red; */
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+
+.josefin-slab-headline {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 50px;
+  width: auto;
+  margin-right: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+.headline {
+  display: flex;
+  margin-right: 200px;
+}
+h1 {
+  color: fuchsia;
+  font-size: 1.7rem;
+  font-family: "Josefine-Slap";
+}
+
+main {
+  display: flex;
+  flex: wrap;
+  position: relative;
+}
+
+.about {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.work img {
+  display: flex;
+  position: absolute;
+  max-width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
